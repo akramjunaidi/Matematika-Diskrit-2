@@ -4,7 +4,7 @@
 >>>
 >>> #operasi matematika langsung
 >>> y = 2 * x + 3
->>> print(y)    #[3, 5, 7, 9, 11]
+>>> print(y)            #[3, 5, 7, 9, 11]
 [ 3  5  7  9 11]
 >>>
 >>> #operasi lain
