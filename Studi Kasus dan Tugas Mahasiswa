@@ -35,6 +35,7 @@
 [1 6 17 34 57]
 
 
+
 #Deteksi bilangan ganjil atau genap
 >>> def ganjil_genap(n):
 ...     if n % 2 == 0:
@@ -45,6 +46,7 @@
 Masukkan bilangan: 7
 >>> print(f"{bil} adalah bilangan {ganjil_genap(bil)}")
 7 adalah bilangan Ganjil
+
 
 
 #FPB dan KPK
@@ -65,6 +67,7 @@ FPB dari 13 dan 11 adalah 1
 KPK dari 13 dan 11 adalah 143
 
 
+
 #Fungsi Fibonacci (Rekursif)
 >>> def fibonacci(n):
 ...     if n <= 1:
@@ -79,6 +82,7 @@ Deret Fibonacci:
 >>> for i in range(n):
 print(fibonacci(i), end=" ")
 0 1 1 2 3 5 8
+
 
 
 #Menentukan bilangan prima
@@ -99,6 +103,7 @@ Masukkan bilangan: 11
 11 adalah bilangan prima
 
 
+
 #Modifikasi fungsi Fibonacci agar hasilnya disimpan dalam list dan ditampilkan sekaligus.
 >>> def fibonacci(n):
 ...     if n <= 1:
@@ -117,6 +122,8 @@ List Fibonacci jumlah suku: 5
 >>> print("List Fibonacci:", list_fib)
 List Fibonacci: [0, 1, 1, 2, 3]
 
+
+
 #Buat Fungsi baru untuk mencari bilangan prima antara 1-N
 >>> def fibonacci(n):
 ...     if n <= 1:
@@ -132,6 +139,9 @@ list_fib.append(fibonacci(i))
 List Fibonacci jumlah suku: 5
 >>> print("List Fibonacci:", list_fib)
 List Fibonacci: [0, 1, 1, 2, 3]
+
+
+
 
 #Buat grafik perbandingan antara fungsi linear dan fungsi kuadrat menggunakan matplotlib
 >>> import numpy as np
@@ -159,5 +169,6 @@ Text(0, 0.5, 'x')
 >>> plt.legend()
 <matplotlib.legend. Legend object at 0x0000023535407D60>
 >>> plt.grid(True)
->>> plt.show
+>>> plt.savefig("grafik.png")
+>>> plt.show()
 
