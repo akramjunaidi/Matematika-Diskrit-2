@@ -1,5 +1,5 @@
-#Cara menghitung Fungsi dengan Python tanpa NumPy kemudian bandingkan ketika menggunakan NumPy
-#fungsi tanpa numpy
+#1. Cara menghitung Fungsi dengan Python tanpa NumPy kemudian bandingkan ketika menggunakan NumPy
+#a. fungsi tanpa numpy
 
 >>> #f(x) = 3 * x * 2 + 2 * x + 1               #for x = [0, 1, 2, 3, 4]
 >>> def f(x):
@@ -19,7 +19,7 @@
 >>> print(fungsi)
 [1, 6, 17, 34, 57]
 
-#fungsi menggunakan numpy
+#b. fungsi menggunakan numpy
 >>> #f(x) = 3 * x * 2 + 2 * x + 1               #for x = [0, 1, 2, 3, 4]
 >>> import numpy as np
 >>> x = np.array([0, 1, 2, 3, 4])
@@ -36,7 +36,7 @@
 
 
 
-#Deteksi bilangan ganjil atau genap
+#2. Deteksi bilangan ganjil atau genap
 >>> def ganjil_genap(n):
 ...     if n % 2 == 0:
 ...              return "Genap"
@@ -49,7 +49,7 @@ Masukkan bilangan: 7
 
 
 
-#FPB dan KPK
+#3. FPB dan KPK
 >>> def fpb(a, b):
 ...     while b != 0:
 ...             a, b = b, a % b
@@ -68,7 +68,7 @@ KPK dari 13 dan 11 adalah 143
 
 
 
-#Fungsi Fibonacci (Rekursif)
+#4. Fungsi Fibonacci (Rekursif)
 >>> def fibonacci(n):
 ...     if n <= 1:
 ...             return n
@@ -85,7 +85,7 @@ print(fibonacci(i), end=" ")
 
 
 
-#Menentukan bilangan prima
+#5. Menentukan bilangan prima
 >>> def is_prima(n):
 ...     if n <= 1:
 ...             return False
@@ -104,7 +104,7 @@ Masukkan bilangan: 11
 
 
 
-#Modifikasi fungsi Fibonacci agar hasilnya disimpan dalam list dan ditampilkan sekaligus.
+#6. Modifikasi fungsi Fibonacci agar hasilnya disimpan dalam list dan ditampilkan sekaligus.
 >>> def fibonacci(n):
 ...     if n <= 1:
 ...             return n
@@ -124,7 +124,7 @@ List Fibonacci: [0, 1, 1, 2, 3]
 
 
 
-#Buat Fungsi baru untuk mencari bilangan prima antara 1-N
+#7. Buat Fungsi baru untuk mencari bilangan prima antara 1-N
 >>> def fibonacci(n):
 ...     if n <= 1:
 ...            return n
@@ -143,7 +143,7 @@ List Fibonacci: [0, 1, 1, 2, 3]
 
 
 
-#Buat grafik perbandingan antara fungsi linear dan fungsi kuadrat menggunakan matplotlib
+#8. Buat grafik perbandingan antara fungsi linear dan fungsi kuadrat menggunakan Matplotlib
 >>> import numpy as np
 >>> import matplotlib.pyplot as plt
 >>>
