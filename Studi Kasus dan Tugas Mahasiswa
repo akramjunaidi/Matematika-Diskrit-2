@@ -155,9 +155,9 @@ List Fibonacci: [0, 1, 1, 2, 3]
 >>>
 >>> plt.figure(figsize=(8, 6))
 <Figure size 800x600 with 0 Axes>
->>> plt.plot(x, f_linear(x), label= "Linear: $y = 2x + 1$", color = 'blue')
+>>> plt.plot(x, f_linear(x), label= "Linear: y = 2x + 1", color = 'blue')
 [<matplotlib.lines. Line2D object at 0x000002354F8BDA50>]
->>> plt.plot(x, f_kuadrat(x), label= "Kuadrat: $y = x^2 4$", color = 'red')
+>>> plt.plot(x, f_kuadrat(x), label= "Kuadrat: y = x^2 4", color = 'red')
 [<matplotlib.lines. Line2D object at 0x000002354F8BDF90>]
 >>>
 >>> plt.title("Perbandingan Fungsi Linear dan Fungsi Kuadrat")
