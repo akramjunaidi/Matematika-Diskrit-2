@@ -1,6 +1,5 @@
 #1. Cara menghitung Fungsi dengan Python tanpa NumPy kemudian bandingkan ketika menggunakan NumPy
 #a. fungsi tanpa numpy
-
 >>> #f(x) = 3 * x * 2 + 2 * x + 1               #for x = [0, 1, 2, 3, 4]
 >>> def f(x):
 ...     return 3 * x 2 + 2 * x + 3
@@ -36,6 +35,8 @@
 
 
 
+
+
 #2. Deteksi bilangan ganjil atau genap
 >>> def ganjil_genap(n):
 ...     if n % 2 == 0:
@@ -46,6 +47,8 @@
 Masukkan bilangan: 7
 >>> print(f"{bil} adalah bilangan {ganjil_genap(bil)}")
 7 adalah bilangan Ganjil
+
+
 
 
 
@@ -68,6 +71,8 @@ KPK dari 13 dan 11 adalah 143
 
 
 
+
+
 #4. Fungsi Fibonacci (Rekursif)
 >>> def fibonacci(n):
 ...     if n <= 1:
@@ -82,6 +87,8 @@ Deret Fibonacci:
 >>> for i in range(n):
 print(fibonacci(i), end=" ")
 0 1 1 2 3 5 8
+
+
 
 
 
@@ -101,6 +108,8 @@ Masukkan bilangan: 11
 ... else:
 >>> print(angka, "bukan bilangan prima")
 11 adalah bilangan prima
+
+
 
 
 
@@ -124,9 +133,9 @@ List Fibonacci: [0, 1, 1, 2, 3]
 
 
 
-#7. Buat Fungsi baru untuk mencari bilangan prima antara 1-N
->>>
 
+
+#7. Buat Fungsi baru untuk mencari bilangan prima antara 1-N
 >>> def kai_prima(n):
 ...     if n 1:
 ...          return False
@@ -147,9 +156,7 @@ Bilangan prima dari 1 hingga 30:
 ...     if kai prima(i):
 ...             print(i, end=" ")
 ...
-2 3 5 7 11 13 17 19 23 29 >>>
->>>
->>>
+2 3 5 7 11 13 17 19 23 29 
 
 
 
@@ -182,4 +189,3 @@ Text(0, 0.5, 'x')
 >>> plt.grid(True)
 >>> plt.savefig("grafik.png")
 >>> plt.show()
-
